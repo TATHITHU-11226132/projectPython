@@ -16,7 +16,7 @@ st.title("Phân tích và Dự đoán PEP với Streamlit")
 # 1. Load dữ liệu từ file CSV
 st.header("1. Load dữ liệu từ file CSV")
 try:
-    print('hellohello')
+    print('hello')
     data = pd.read_csv("bank__s2.csv")
     st.write("Dữ liệu từ file bank__s2.csv:")
     st.dataframe(data.head())  # Hiển thị vài dòng đầu
